@@ -16,6 +16,7 @@
     Navegação pelo normal mode
         hjkl
         w - b - {} - gg G  - 0 _ $ - :<numero da linha>
+        ctrl+d u 
         Combo com números
 
         todas letras tem um mnemonico
@@ -27,13 +28,11 @@
         c -> change
 
         Combo de letra 
-        d - x - y
+        d - x - y e p
 
         f e t
         u e ctrl+r
-        p
 
-    ctrl+d u 
 
     Outras formas de entrar no insert mode
         I - A - o O - s S - C 

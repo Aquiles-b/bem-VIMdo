@@ -50,7 +50,7 @@ Olhei para cima e vi suas encostas
 
 <---------------------------->
 
---Deletando coisas
+--Deletando 
 (d -> delete) 
 
 palavra
@@ -67,7 +67,7 @@ deletando linha inteira bem grande mesmo 3
 
 delete apartir daqui bla bla bla bla bla bla
 
---Copiando e colando coisas
+--Copiando e colando
 (y -> yank | p -> paste)
 
 copie 
@@ -83,8 +83,14 @@ copiando linha inteira
 
 cole aqui -> ?
 
---Econtrando coisas 
+--Econtrando 
 (f -> find | t -> to)
+
+teletransporte até o . lá na frente . 
+
+apague até o . primeiro ponto incluindo ele.
+
+apague até o . primeiro ponto SEM incluir ele.
 
 <---------------------------->
 Cobertas de luz, que não encontrava
