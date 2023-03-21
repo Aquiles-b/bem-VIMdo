@@ -48,7 +48,7 @@ Onde começa aquele vale doloroso,
 Que açoita o coração com tanto medo.
 Olhei para cima e vi suas encostas
 
-<---------------------------->
+<Manipulando o texto--------------------------------------->
 
 --Deletando 
 (d -> delete) 
@@ -65,7 +65,7 @@ deletando linha inteira bem grande mesmo 1
 deletando linha inteira bem grande mesmo 2
 deletando linha inteira bem grande mesmo 3
 
-delete apartir daqui bla bla bla bla bla bla
+delete a partir daqui bla bla bla bla bla bla
 
 --Copiando e colando
 (y -> yank | p -> paste)
@@ -92,7 +92,25 @@ apague até o primeiro * asterísco incluindo ele *
 
 apague até a primeira " SEM incluir ela "
 
-<---------------------------->
+<---------------------------------------------------------->
+
+!!!Não me apague T-T !!!
+Brigado :D
+
+<Outras formas de entrar no insert------------------------->
+
+1) Primeiro complete a palavra do final da linha e depois a do começo:
+(Onde - estrela)
+ 
+nde as almas brilhavam como estr
+
+2) Insira linhas: 
+
+A partir daqui insira uma nova linha abaixo
+"Cobertas de luz, que não encontrava"
+A partir daqui insira uma nova linha acima
+
+<---------------------------------------------------------->
 Cobertas de luz, que não encontrava
 O caminho que lá subia.
 Nossa jornada foi interrompida

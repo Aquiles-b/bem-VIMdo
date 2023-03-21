@@ -33,7 +33,6 @@
         f e t
         u e ctrl+r
 
-
     Outras formas de entrar no insert mode
         I - A - o O - s S - C 
         cw - cb -> falar deles com numeros
