@@ -1,0 +1,94 @@
+-Introdução:
+    Formas de escrever código
+    Vi, vim e neovim
+    Por que o VIM e não VSCODE?
+    Produtividade do VIM
+    Controle maior sobre o editor
+
+-Meio:
+    Clonar repositório
+    Overview sobre normal, insert e command mode
+    Como entrar e sair do insert e do command
+    Comandos básicos do command mode 
+
+    :set nu
+
+    Navegação pelo normal mode
+        hjkl
+        w - b - {} - gg G  - 0 _ $ - :<numero da linha>
+        Combo com números
+
+        todas letras tem um mnemonico
+        (mostrar mnemonicos do que usaram até agora primeiramente)
+        w -> word
+        b -> backwards, before
+        (depois outros intuitivos)
+        d -> delete
+        c -> change
+
+        Combo de letra 
+        d - x - y
+
+        f e t
+        u e ctrl+r
+        p
+
+    ctrl+d u 
+
+    Outras formas de entrar no insert mode
+        I - A - o O - s S - C 
+        cw - cb -> falar deles com numeros
+        ciw - ci" - ci(
+
+    Explicar sobre o cmp nativo do vim ctrl+n e p
+
+    Apresentar visual mode
+    foco em exercicios práticos 
+
+    shift+zz
+
+    .vimrc
+    :source :so
+    Configurações básicas
+        set nu
+        set rnu
+        syntax on 
+        set shiftwidth=x
+        set smarttab 
+
+    mapeamentos 
+        nmap 
+        nnoremap <junção de tecla> <Ação>
+        nnoremap ll $
+        nnoreamp <C-s> :w<CR> -> primeiro sem o <CR>
+                <A-x>
+                <S-x>
+                <Esc> 
+                <BS>
+                <CR>
+                <Space>
+                <F1>...<F12>
+        nnoremap <junção de tecla> <Ação>...<Ação>
+        inoremap
+        vnoremap
+
+-Fim:
+    colorschemes
+    como instalar manualmente
+    explicar o que são plugins 
+    plugin manager Vim plug - https://github.com/junegunn/vim-plug
+    instalação e uso
+    instalar um colorscheme pelo vim plug
+
+    apresentar o airline, nerd tree
+    !!let g:airline... pesquisar !!
+
+    recomendar o ALE
+    
+    Citar o .vimrc pronto 
+
+    Não ensinar, só mostrar 
+        vs sp buffers comandos secretos 
+
+ref:
+https://dev.to/prodopsio/vim-a-to-z-literally-1iah    
