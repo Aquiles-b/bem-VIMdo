@@ -28,15 +28,16 @@
         c -> change
 
         Combo de letra 
-        d - x - y e p
+        d - D - x - y e p
 
         f e t
         u e ctrl+r
 
     Outras formas de entrar no insert mode
-        I - A - o O - s S - C 
+        I - A - o O - s S 
         cw - cb -> falar deles com numeros
         ciw - ci" - ci(
+        C
 
     Explicar sobre o cmp nativo do vim ctrl+n e p
 
