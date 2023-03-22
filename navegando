@@ -106,13 +106,13 @@ A partir daqui insira uma nova linha abaixo
 "Cobertas de luz, que não encontrava"
 A partir daqui insira uma nova linha acima
 
-3) Usando o comando "s":
+3) Usando o comando "s" e "S":
 
-montaPa
+montaPa (montanha)
 
 Apague essa linha e escreva algo
 
-4) Comando "c":
+4) Comando "c" e "C":
 
 me_mude
 
