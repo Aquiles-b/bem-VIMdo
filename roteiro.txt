@@ -27,6 +27,8 @@
         d -> delete
         c -> change
 
+        Ir para linha 50
+
         Combo de letra 
         d - D - x - y e p
 
