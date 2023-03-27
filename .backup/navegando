@@ -51,7 +51,7 @@ Olhei para cima e vi suas encostas
 <Manipulando o texto--------------------------------------->
 
 --Deletando 
-(d -> delete) 
+(d -> delete | x -> cross-out) 
 
 palavra
 
@@ -84,7 +84,7 @@ copiando linha inteira
 cole aqui -> ?
 
 --Econtrando 
-(f -> find | t -> to)
+(f -> find | t -> till)
 
 teletransporte até o . ponto lá na frente . 
 
@@ -121,6 +121,20 @@ me mude
 Pode mudar dentro "das aspas" (parênteses) [colchetes] {chaves}
 
 Mude a partir daqui bla bla bla bla 
+
+<Indentação------------------------------------------------>
+
+        #include <stdio.h>
+
+    void mensagem(){
+printf ("Alooo\n");
+        }
+
+        int main(){
+    mensagem();
+
+return 0;
+            }
 
 <---------------------------------------------------------->
 
