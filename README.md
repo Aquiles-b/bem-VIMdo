@@ -9,8 +9,10 @@ Esse é um repositório para auxiliar no começo da sua jornada de aprendizado s
 Lista dos mnemônicos de cada letra no normal mode:   
 <img src="imagens_oficina/mnemonicos.png" width="400" alt="Lista dos mnemônicos">
 
+# Plugins  
+  Os plugins são a cereja do bolo. Através deles, se abre um leque de opções para personalizar e moldar o editor do seu jeito de uma maneira mais fácil. Além disso, alguns plugins como LSP e Telescope aumentam muito a eficiência em codar e ter um uso mais fluído.
 
-# Instalando plugins no vim
+## Instalando plugins no vim
 1- Baixe o vim-plug com o seguinte comando:
 
 ```sh
