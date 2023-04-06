@@ -13,7 +13,7 @@ Em poucas palavras Vim é um editor de texto muito eficiênte e personalizável.
 O vim tem 3 modos principais:  
 
 <div>
-    <img src="imagens_oficina/modos/normal.png" width="125" style="display:inline;" alt="Modo Normal"> 
+    <img src="imagens_oficina/modos/normal.png" width="125" alt="Modo Normal"> 
     <img src="imagens_oficina/modos/insert.png" width="125" alt="Modo de Inserção">  
     <img src="imagens_oficina/modos/command.png" width="125" alt="Modo de Comando">  
 </div>  
@@ -21,6 +21,21 @@ O vim tem 3 modos principais:
 🔵 **Normal:** Navegação e manipulação do texto.  
 🟢 **Inserção:** Usado para escrita.  
 🟠 **Comando:** Ações sobre o arquivo como salvar, sair, buscar, ...  
+
+## 🔵 Normal  
+O modo Normal é o modo principal do vim. Quando o editor é aberto é nele que se inicia e então, a partir dele, é possível ir para os outros 2 modos.  
+<img src="imagens_oficina/dois_modos_com_legenda.png" alt="relação entre os modos do vim" width="300">  
+Nesse modo, as teclas viram mnemônicos, que são simbolos representando um comando.  
+Por exemplo:
+- w -> word (Avança uma palavra)
+- u -> undo (Desfaz uma alteração)
+- i -> insert (Entra no modo de inserção)
+
+[Tabela de mnemônicos](#mnemônicos)
+
+## 🟢 Inserção  
+
+## 🟠 Comando  
 
 # Mnemônicos
 Lista dos mnemônicos de cada letra no normal mode:   
@@ -59,6 +74,6 @@ call plug#end()
 4- Salve o arquivo `:w`, o recarregue `:so` e então rode o comando `:PlugInstall`.  
 Pronto, os plugins estão instalados :)  
 
-## Links úteis
+## Links
    - <a href="https://github.com/junegunn/vim-plug" target="_blank" >Vim-Plug</a>
-   - blabla
+   - <a href="https://dev.to/prodopsio/vim-a-to-z-literally-1iah" target="_blank">dev.to/prodopsio/vim-a-to-z-literally-1iah</a>
