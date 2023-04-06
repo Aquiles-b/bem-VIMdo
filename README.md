@@ -3,8 +3,9 @@ Esse é um repositório para auxiliar no começo da sua jornada de aprendizado s
 ## Sumário:
  - [Conhecendo o vim](#o-que-é-o-vim)
  - [Mnemônicos](#mnemônicos)  
+ - [Configurações (.vimrc)](#configurações)  
  - [Como instalar plugins no vim](#instalando-plugins-no-vim) 
- - [Links úteis](#links-úteis)  
+ - [Links úteis](#links)  
 
 # O que é o Vim?  
 Em poucas palavras Vim é um editor de texto muito eficiênte e personalizável. O seu maior diferencial está em não necessitar do mouse, o que faz a manipulação e navegação do código ser feita por comandos do teclado, tornando os movimentos mais rápidos e precisos.
@@ -33,6 +34,18 @@ Por exemplo:
 
 [Tabela de mnemônicos](#mnemônicos)
 
+Ao juntar um mnemônico com um número N, o comando vai repetir N vezes.  
+Exemplos:  
+- 2w -> Avança duas palavras
+- 4b -> Volta 4 palavras  
+
+É possível também juntar os mnemônicos entre si, formando outros comandos:
+- dw -> delete word (Apaga uma palavra)
+- yi" -> yank inside " (Copia o conteúdo entre aspas duplas)
+- d2w -> delete 2 words (apaga duas palavras)
+> A adição de um número para repetir o comando ainda é válida
+
+
 ## 🟢 Inserção  
 
 ## 🟠 Comando  
@@ -40,6 +53,8 @@ Por exemplo:
 # Mnemônicos
 Lista dos mnemônicos de cada letra no normal mode:   
 <img src="imagens_oficina/mnemonicos.png" width="400" alt="Lista dos mnemônicos">
+
+# Configurações
 
 # Plugins  
   Os plugins são a cereja do bolo. Através deles, se abre um leque de opções para personalizar e moldar o editor do seu jeito de uma maneira mais fácil. Além disso, alguns plugins como LSP e Telescope aumentam muito a eficiência em codar e ter um uso mais fluído.
