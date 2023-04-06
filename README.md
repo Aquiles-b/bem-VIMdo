@@ -28,21 +28,27 @@ O modo Normal é o modo principal do vim. Quando o editor é aberto é nele que 
 <img src="imagens_oficina/dois_modos_com_legenda.png" alt="relação entre os modos do vim" width="300">  
 Nesse modo, as teclas viram mnemônicos, que são simbolos representando um comando.  
 Por exemplo:
-- w -> word (Avança uma palavra)
-- u -> undo (Desfaz uma alteração)
-- i -> insert (Entra no modo de inserção)
+| Atalho | Mnemônico | Ação |
+| :---: | :---: | --- |
+| w | word | Avança uma palavra |
+| u | undo | Desfaz uma alteração |
+| i | insert | Entra no modo de inserção |
 
 [Tabela de mnemônicos](#mnemônicos)
 
 Ao juntar um mnemônico com um número N, o comando vai repetir N vezes.  
 Exemplos:  
-- 2w -> Avança duas palavras
-- 4b -> Volta 4 palavras  
+| Atalho | Ação |
+| :---: | --- | 
+| 2w | Avança duas palavras |
+| 4b | Volta 4 palavras |
 
 É possível também juntar os mnemônicos entre si, formando outros comandos:
-- dw -> delete word (Apaga uma palavra)
-- yi" -> yank inside " (Copia o conteúdo entre aspas duplas)
-- d2w -> delete 2 words (apaga duas palavras)
+| Atalho | Mnemônico | Ação |
+| :---: | :---: | --- | 
+| dw | delete word | Apaga uma palavra |
+| yi" | yank inside " | Copia o conteúdo entre aspas duplas |
+| d2w | delete 2 words | apaga duas palavras |
 > A adição de um número para repetir o comando ainda é válida
 
 
