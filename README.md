@@ -30,9 +30,9 @@ Nesse modo, as teclas viram mnemônicos, que são simbolos representando um coma
 Por exemplo:
 | Atalho | Mnemônico | Ação |
 | :---: | :---: | --- |
-| w | word | Avança uma palavra |
-| u | undo | Desfaz uma alteração |
-| i | insert | Entra no modo de inserção |
+| `w` | word | Avança uma palavra |
+| `u` | undo | Desfaz uma alteração |
+| `i` | insert | Entra no modo de inserção |
 
 [Tabela de mnemônicos](#mnemônicos)
 
@@ -40,15 +40,15 @@ Ao juntar um mnemônico com um número N, o comando vai repetir N vezes.
 Exemplos:  
 | Atalho | Ação |
 | :---: | --- | 
-| 2w | Avança duas palavras |
-| 4b | Volta 4 palavras |
+| `2w` | Avança duas palavras |
+| `4b` | Volta 4 palavras |
 
 É possível também juntar os mnemônicos entre si, formando outros comandos:
 | Atalho | Mnemônico | Ação |
 | :---: | :---: | --- | 
-| dw | delete word | Apaga uma palavra |
-| yi" | yank inside " | Copia o conteúdo entre aspas duplas |
-| d2w | delete 2 words | apaga duas palavras |
+| `dw` | delete word | Apaga uma palavra |
+| `yi"` | yank inside " | Copia o conteúdo entre aspas duplas |
+| `d2w` | delete 2 words | apaga duas palavras |
 > A adição de um número para repetir o comando ainda é válida
 
 
