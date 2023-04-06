@@ -1,9 +1,26 @@
 # Bem-VIMdo  
-Esse é um repositório para auxiliar no começo da sua jornada de aprendizado sobre o Vim.
-
+Esse é um repositório para auxiliar no começo da sua jornada de aprendizado sobre o Vim.  
+## Sumário:
+ - [Conhecendo o vim](#o-que-é-o-vim)
  - [Mnemônicos](#mnemônicos)  
  - [Como instalar plugins no vim](#instalando-plugins-no-vim) 
  - [Links úteis](#links-úteis)  
+
+# O que é o Vim?  
+Em poucas palavras Vim é um editor de texto muito eficiênte e personalizável. O seu maior diferencial está em não necessitar do mouse, o que faz a manipulação e navegação do código ser feita por comandos do teclado, tornando os movimentos mais rápidos e precisos.
+
+## Modos do Vim
+O vim tem 3 modos principais:  
+
+<div>
+    <img src="imagens_oficina/modos/normal.png" width="125" style="display:inline;" alt="Modo Normal"> 
+    <img src="imagens_oficina/modos/insert.png" width="125" alt="Modo de Inserção">  
+    <img src="imagens_oficina/modos/command.png" width="125" alt="Modo de Comando">  
+</div>  
+
+🔵 **Normal:** Navegação e manipulação do texto.  
+🟢 **Inserção:** Usado para escrita.  
+🟠 **Comando:** Ações sobre o arquivo como salvar, sair, buscar, ...  
 
 # Mnemônicos
 Lista dos mnemônicos de cada letra no normal mode:   
