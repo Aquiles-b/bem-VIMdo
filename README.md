@@ -33,6 +33,7 @@ Por exemplo:
 | `w` | word | Avança uma palavra |
 | `u` | undo | Desfaz uma alteração |
 | `i` | insert | Entra no modo de inserção |
+|`r`| replace | Troca o caractere embaixo do cursor pelo próximo caractere digitado |
 
 [Tabela de mnemônicos](#mnemônicos)
 
@@ -51,16 +52,47 @@ Exemplos:
 | `d2w` | delete 2 words | apaga duas palavras |
 > A adição de um número para repetir o comando ainda é válida
 
-
 ## 🟢 Inserção  
+O modo de inserção é utilizado para a escrita em si. Existem diversas formas de entrar nele através do modo normal, algumas formas vão ter mais eficiência do que outras dependendo da ocasião.
+
+| Atalho | Mnemônico | Ação |
+| :---: | :---: | --- | 
+|`i`| insert | Insere à esquerda do cursor |
+|`a`| append | Insere à direita do cursor |
+|`I`| Insert | Insere à esquerda da primeira palavra da linha |
+|`A`| Append | Insere à direita da última palavra do cursor |
+|`c<motion>`| change | Deleta até `<motion>` caracteres e entra no modo de inserção |
+|`C`| Change | Deleta a partir do cursor até o final da linha e entra no modo de inserção |
+|`s`| substitute| Deleta a letra embaixo do cursor e entra no modo de inserção |
+|`S`| Substitute | Deleta a linha inteira e entra no modo de inserção |
 
 ## 🟠 Comando  
+O modo de comando é equivalente ao menu do topo de outros programas. Para acessá-lo basta estar no modo normal e digitar `:`, `/` ou `?`.  
+### Comando `:`
+| Comando | Ação |
+| :---: | --- |
+|`:w`| Salva o arquivo |
+|`:q`| Fecha a janela atual do editor |
+|`:q!`| Fecha a janela atual do editor de forma forçada |
+|`:wq`| Salva e fecha a janela atual |
+|`:<número>`| Pula para a linha `<número>` |
+|`:e <arquivo>`| Abre o arquivo `<arquivo>` |
+|`:vs`| Divide a tela verticalmente em duas janelas |
+|`:sp`| Divide a tela horizontalmente em duas janelas |
+
+> Para navegar entre as janelas use o comando `<Ctrl+w>` seguido da direção (`h`, `j`, `k`, `l`, `←`, `↓`, `↑` ou `→`)  
+
+### Comandos `?` e `/`
+Faz uma busca do termo passado a partir do ponto atual do cursor (`?` para cima e `/` para baixo). Para se locomover entre as ocorrências do termo usa-se as teclas `n` (próxima ocorrência) e `N` (ocorrência anterior).
+> Os comandos de locomoção se invertem caso a busca seja para cima.
 
 # Mnemônicos
 Lista dos mnemônicos de cada letra no normal mode:   
 <img src="imagens_oficina/mnemonicos.png" width="400" alt="Lista dos mnemônicos">
 
-# Configurações
+# Configurações  
+
+[.vimrc](.vimrc) 
 
 # Plugins  
   Os plugins são a cereja do bolo. Através deles, se abre um leque de opções para personalizar e moldar o editor do seu jeito de uma maneira mais fácil. Além disso, alguns plugins como LSP e Telescope aumentam muito a eficiência em codar e ter um uso mais fluído.
