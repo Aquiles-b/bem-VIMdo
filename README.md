@@ -92,7 +92,28 @@ Lista dos mnemônicos de cada letra no normal mode:
 
 # Configurações  
 
-[.vimrc](.vimrc) 
+Ao inicializar o programa, o vim busca suas configurações no arquivo .vimrc localizado por padrão no diretório home. Essas configurações modificam a visualização, comportamento e atalhos do programa, o que torna o editor mais moldável às suas preferências e necessidades.  
+## Fazendo um .vimrc  
+O arquivo é escrito em vimscript. Há um exemplo de configuração inicial [aqui](.vimrc) no repositório.
+Algumas linhas úteis são:
+```vim-script
+" Coloca uma coluna que mostra a contagem de linhas à esquerda 
+set nu
+" Mesmo do set nu porém a contagem é relativa à posição do cursor 
+set rnu
+" Ativa o destaque da sintaxe do editor
+syntax on 
+" Tamanho do tab, nesse caso 4
+set tabstop=4
+" Tamanho da indentação usando << e >> (Bom deixar igual do tabstop)
+set shiftwidth=4
+" Destaca a coluna 80 (Boa prática não ultrapassar essa marca)
+set colorcolumn=80
+" Destaca a linha atual do cursor
+set cursorline
+" Destaca a coluna atual do cursor
+set cursorcolumn
+```
 
 # Plugins  
   Os plugins são a cereja do bolo. Através deles, se abre um leque de opções para personalizar e moldar o editor do seu jeito de uma maneira mais fácil. Além disso, alguns plugins como LSP e Telescope aumentam muito a eficiência em codar e ter um uso mais fluído.
