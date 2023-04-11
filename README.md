@@ -5,7 +5,7 @@ Esse é um repositório para auxiliar no começo da sua jornada de aprendizado s
  - [Mnemônicos](#mnemônicos)  
  - [Configurações (.vimrc)](#configurações)  
  - [Como instalar plugins no vim](#instalando-plugins-no-vim) 
- - [Links úteis](#links)  
+ - [Links úteis](#links-úteis)  
 
 # O que é o Vim?  
 Em poucas palavras Vim é um editor de texto muito eficiênte e personalizável. O seu maior diferencial está em não necessitar do mouse, o que faz a manipulação e navegação do código ser feita por comandos do teclado, tornando os movimentos mais rápidos e precisos.
@@ -148,6 +148,8 @@ call plug#end()
 ```
 4- Salve o arquivo `:w`, o recarregue `:so` e então rode o comando `:PlugInstall`.  
 Pronto, os plugins estão instalados :)  
+
+[↑ Ir pro começo ↑](#bem-vimdo)   
 
 ## Links úteis
 ### Aprender sobre o Vim
