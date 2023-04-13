@@ -160,8 +160,8 @@ nnoremap <C-s> :w<CR>
 Os comandos podem ser qualquer sequência que você faria manualmente:  
 | Modo atual | Comando | Ação |
 | :---: | :---: | --- |
-| Normal | `:q<CR>` | Entra no modo comando, escreve `q` e enter |
-| Normal | `i vim é brabo <Esc>` | Entra no modo de inserção, escreve "vim é brabo" e aperta Esc |
+| Normal | `:q<CR>` | Entra no modo comando, escreve `q`, e aperta enter |
+| Normal | `i vim é brabo <Esc>` | Entra no modo de inserção, escreve "vim é brabo", e aperta Esc |
 | Normal | `<C-w>l` | Vai para a janela à direita de um split |
 | Normal | `mmgg=G'mzz` | Passa a auto indentação do vim pelo arquivo inteiro, e volta pra linha que o cursor estava |
 
