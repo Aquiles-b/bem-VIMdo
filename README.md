@@ -164,4 +164,9 @@ Pronto, os plugins estão instalados :)
    - <a href="https://github.com/savq/melange-nvim" target="_blank">Melange (apenas Neovim)</a>
    - <a href="https://github.com/folke/tokyonight.nvim" target="_blank">TokyoNight (apenas Neovim)</a>
 ### Plugins interessantes
-`⚠️⚠️ UNDER CONSTRUCTION!!!! ⚠️⚠️`
+   - <a href="https://github.com/vim-airline/vim-airline" target="_blank">Vim Airline</a>
+   - <a href="https://github.com/preservim/nerdtree" target="_blank">NERDtree</a>
+   - <a href="https://github.com/luochen1990/rainbow" target="_blank">Rainbow Parenthesis Improved</a>
+   - <a href="https://github.com/jiangmiao/auto-pairs" target="_blank">Auto Pairs</a>
+   - <a href="https://github.com/dense-analysis/ale" target="_blank">ALE (Asynchronous Lint Engine)</a>
+   > Recomendamos o ALE apenas para quando você já tiver desenvolvido mais prática com programação.
