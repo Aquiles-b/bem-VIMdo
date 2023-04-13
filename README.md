@@ -115,6 +115,51 @@ set cursorline
 " Destaca a coluna atual do cursor
 set cursorcolumn
 ```
+### Mapeamentos
+Mapeamentos são a junção de teclas (ou apenas uma) que geram uma sequência de comandos definidos pelo usuário dentro do .vimrc.
+A sintaxe é a seguinte:
+`<tipo de map>  <gatilho>  <comandos>`  
+Exemplos:  
+
+```vim-script
+nnoremap <S-d> d2w 
+```
+Nesse caso,
+- `nnoremap` indica que é um mapeamento para o modo normal sem sobrescrever outros maps
+- `<S-d>` o gatilho é shift + d
+- `d2w` o comando é d2w, apaga duas palavras  
+
+```vim-script
+nnoremap <C-s> :w<CR> 
+```
+
+- `nnoremap` mapeamento para o modo normal
+- `<C-s>` o gatilho é Ctrl + s  
+- `:w<CR>` o comando é digitar :w e em seguida um enter `<CR>`, salvando o arquivo.
+
+### Para criar maps para outros modos:  
+- `inoremap` -> map para modo de inserção sem sobrescrever   
+- `vnoremap` -> map para modo visual sem sobrescrever  
+- `tnoremap` -> map para modo terminal sem sobrescrever  
+
+### Gatilhos: 
+| Gatilho | O que representa |
+| :---: | --- |
+| `<S-x>` | Shift + x    |
+| `<C-x>` | Ctrl + x  |
+| `<A-x>` | Alt + x  |
+| `<Space-x>` | Espaço + x  |
+| `xx` | xx  |
+> Não precisa necessariamente usar uma tecla modificadora (Ctrl, Alt, Shift, ...) 
+
+### Comandos  
+Os comandos podem ser qualquer sequência que você faria manualmente:  
+| Modo atual | Comando | Ação |
+| :---: | :---: | --- |
+| Normal | `:q<CR>` | Entra no modo comando, escreve `q` e enter |
+| Normal | `i vim é brabo <Esc>` | Entra no modo de inserção, escreve vim é brabo e aperta Esc |
+| Normal | `<C-w>l` | Vai para a janela à direita de um split |
+| Normal | `mmgg=G'mzz` | Passa a auto indentação do vim pelo arquivo inteiro e volta pra linha que o cursor estava |
 
 # Plugins  
   Os plugins são a cereja do bolo. Através deles, se abre um leque de opções para personalizar e moldar o editor do seu jeito de uma maneira mais fácil. Além disso, alguns plugins como LSP e Telescope aumentam muito a eficiência em codar e ter um uso mais fluído.
