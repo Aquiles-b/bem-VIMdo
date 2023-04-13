@@ -2,8 +2,12 @@
 Esse é um repositório para auxiliar no começo da sua jornada de aprendizado sobre o Vim.  
 ## Sumário:
  - [Conhecendo o vim](#o-que-é-o-vim)
+   - [Normal](#-normal)
+   - [Inserção](#-inserção)
+   - [Comando](#-comando)
  - [Mnemônicos](#mnemônicos)  
  - [Configurações (.vimrc)](#configurações)  
+   - [Mapeamentos](#mapeamentos) 
  - [Como instalar plugins no vim](#instalando-plugins-no-vim) 
  - [Links úteis](#links-úteis)  
 
