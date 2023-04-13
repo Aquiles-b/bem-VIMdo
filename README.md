@@ -12,7 +12,7 @@ Esse é um repositório para auxiliar no começo da sua jornada de aprendizado s
  - [Links úteis](#links-úteis)  
 
 # O que é o Vim?  
-Em poucas palavras, Vim é um editor de texto muito eficiênte e personalizável. O seu maior diferencial está em não necessitar do mouse, o que faz a manipulação e navegação do código ser feita por comandos do teclado, tornando os movimentos mais rápidos e precisos.
+Em poucas palavras, Vim é um editor de texto muito eficiênte e personalizável. O seu maior diferencial está em não necessitar o uso do mouse, o que faz a manipulação e navegação do código ser feita por comandos do teclado, tornando os movimentos mais rápidos e precisos.
 
 ## Modos do Vim
 O vim tem 3 modos principais:  
