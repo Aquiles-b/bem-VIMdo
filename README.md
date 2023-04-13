@@ -12,7 +12,7 @@ Esse é um repositório para auxiliar no começo da sua jornada de aprendizado s
  - [Links úteis](#links-úteis)  
 
 # O que é o Vim?  
-Em poucas palavras Vim é um editor de texto muito eficiênte e personalizável. O seu maior diferencial está em não necessitar do mouse, o que faz a manipulação e navegação do código ser feita por comandos do teclado, tornando os movimentos mais rápidos e precisos.
+Em poucas palavras, Vim é um editor de texto muito eficiênte e personalizável. O seu maior diferencial está em não necessitar do mouse, o que faz a manipulação e navegação do código ser feita por comandos do teclado, tornando os movimentos mais rápidos e precisos.
 
 ## Modos do Vim
 O vim tem 3 modos principais:  
@@ -28,9 +28,9 @@ O vim tem 3 modos principais:
 🟠 **Comando:** Ações sobre o arquivo como salvar, sair, buscar, ...  
 
 ## 🔵 Normal  
-O modo Normal é o modo principal do vim. Quando o editor é aberto é nele que se inicia e então, a partir dele, é possível ir para os outros 2 modos.  
+O modo Normal é o modo principal do vim. É nele em que o editor se inicia e então, a partir dele, é possível ir para os outros 2 modos.  
 <img src="imagens_oficina/dois_modos_com_legenda.png" alt="relação entre os modos do vim" width="300">  
-Nesse modo as teclas representam mnemônicos, que são simbolos representando um comando.  
+Nesse modo cada tecla representa um comando. É possível associar um mnemônico para cada ação. 
 Por exemplo:
 | Atalho | Mnemônico | Ação |
 | :---: | :---: | --- |
@@ -41,14 +41,14 @@ Por exemplo:
 
 [Tabela de mnemônicos](#mnemônicos)
 
-Ao juntar um mnemônico com um número N, o comando vai repetir N vezes.  
+Ao juntar uma ação com um número N, o comando vai repetir N vezes.  
 Exemplos:  
 | Atalho | Ação |
 | :---: | --- | 
 | `2w` | Avança duas palavras |
 | `4b` | Volta 4 palavras |
 
-É possível também juntar os mnemônicos entre si, formando outros comandos:
+É possível também juntar as ações entre si, formando outros comandos:
 | Atalho | Mnemônico | Ação |
 | :---: | :---: | --- | 
 | `dw` | delete word | Apaga uma palavra |
@@ -91,12 +91,12 @@ Faz uma busca do termo passado a partir do ponto atual do cursor (`?` para cima 
 > Os comandos de locomoção se invertem caso a busca seja para cima.
 
 # Mnemônicos
-Lista dos mnemônicos de cada letra no normal mode:   
+Lista de mnemônicos de cada letra no normal mode:   
 <img src="imagens_oficina/mnemonicos.png" width="400" alt="Lista dos mnemônicos">
 
 # Configurações  
 
-Ao inicializar o programa, o vim busca suas configurações no arquivo .vimrc localizado por padrão no diretório home. Essas configurações modificam a visualização, comportamento e atalhos do programa, moldando o editor às suas preferências e necessidades.
+Ao inicializar o programa, o vim busca suas configurações no arquivo .vimrc, localizado por padrão no diretório home. Essas configurações modificam a visualização, comportamento, e atalhos do programa, moldando o editor às suas preferências e necessidades.
 
 ## Fazendo um .vimrc  
 O arquivo é escrito em vimscript. Há um exemplo de configuração inicial [aqui](.vimrc) no repositório.
@@ -139,7 +139,7 @@ nnoremap <C-s> :w<CR>
 
 - `nnoremap` mapeamento para o modo normal
 - `<C-s>` o gatilho é Ctrl + s  
-- `:w<CR>` o comando é digitar :w e em seguida um enter `<CR>`, salvando o arquivo.
+- `:w<CR>` o comando é digitar `:w` e em seguida um enter `<CR>`, salvando o arquivo.
 
 ### Para criar maps para outros modos:  
 - `inoremap` -> map para modo de inserção sem sobrescrever   
@@ -161,9 +161,9 @@ Os comandos podem ser qualquer sequência que você faria manualmente:
 | Modo atual | Comando | Ação |
 | :---: | :---: | --- |
 | Normal | `:q<CR>` | Entra no modo comando, escreve `q` e enter |
-| Normal | `i vim é brabo <Esc>` | Entra no modo de inserção, escreve vim é brabo e aperta Esc |
+| Normal | `i vim é brabo <Esc>` | Entra no modo de inserção, escreve "vim é brabo" e aperta Esc |
 | Normal | `<C-w>l` | Vai para a janela à direita de um split |
-| Normal | `mmgg=G'mzz` | Passa a auto indentação do vim pelo arquivo inteiro e volta pra linha que o cursor estava |
+| Normal | `mmgg=G'mzz` | Passa a auto indentação do vim pelo arquivo inteiro, e volta pra linha que o cursor estava |
 
 # Plugins  
   Os plugins são a cereja do bolo. Através deles, se abre um leque de opções para personalizar e moldar o editor do seu jeito de uma maneira mais fácil. Além disso, alguns plugins como LSP e Telescope aumentam muito a eficiência em codar e ter um uso mais fluído.
@@ -190,22 +190,21 @@ call plug#begin()
    Plug 'preservim/nerdtree'
 call plug#end()
 ```
- Os plugins vem de repositórios git. É possível usar o link inteiro ou a abreviação 'nome de usuário/ repositório do criador'
+ Os plugins vêm de repositórios git. É possível usar o link inteiro ou a abreviação 'nome de usuário/ repositório do criador'
 ```vim
    Plug 'https://github.com/morhetz/gruvbox'  
    Plug 'morhetz/gruvbox'
 ```
-4- Salve o arquivo `:w`, o recarregue `:so` e então rode o comando `:PlugInstall`.  
+4- Salve o arquivo `:w`, o recarregue `:so`, e então rode o comando `:PlugInstall`.  
 Pronto, os plugins estão instalados :)  
 
 [↑ Ir pro começo ↑](#bem-vimdo)   
 
 ## Links úteis
 ### Aprender sobre o Vim
-   - <a href="https://github.com/junegunn/vim-plug" target="_blank" >Vim-Plug</a>
-   - <a href="https://dev.to/prodopsio/vim-a-to-z-literally-1iah" target="_blank">dev.to/prodopsio/vim-a-to-z-literally-1iah</a>
    - <a href="https://vim.rtorr.com" target="_blank">Vim Cheat Sheet</a>
    - <a href="https://www.youtube.com/playlist?list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R" target="_blank">Playlist de vídeos do The Primeagen sobre Vim</a>
+   - <a href="https://dev.to/prodopsio/vim-a-to-z-literally-1iah" target="_blank">dev.to/prodopsio/vim-a-to-z-literally-1iah</a>
 ### Temas de cores
    - <a href="https://github.com/catppuccin/vim" target="_blank">Catpuccin</a>
    - <a href="https://github.com/sainnhe/everforest" target="_blank">Everforest</a>
@@ -213,6 +212,7 @@ Pronto, os plugins estão instalados :)
    - <a href="https://github.com/savq/melange-nvim" target="_blank">Melange (apenas Neovim)</a>
    - <a href="https://github.com/folke/tokyonight.nvim" target="_blank">TokyoNight (apenas Neovim)</a>
 ### Plugins interessantes
+   - <a href="https://github.com/junegunn/vim-plug" target="_blank" >Vim-Plug (Gerenciador para os demais plugins)</a>
    - <a href="https://github.com/vim-airline/vim-airline" target="_blank">Vim Airline</a>
    - <a href="https://github.com/preservim/nerdtree" target="_blank">NERDtree</a>
    - <a href="https://github.com/luochen1990/rainbow" target="_blank">Rainbow Parenthesis Improved</a>
