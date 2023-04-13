@@ -26,7 +26,7 @@ O vim tem 3 modos principais:
 ## 🔵 Normal  
 O modo Normal é o modo principal do vim. Quando o editor é aberto é nele que se inicia e então, a partir dele, é possível ir para os outros 2 modos.  
 <img src="imagens_oficina/dois_modos_com_legenda.png" alt="relação entre os modos do vim" width="300">  
-Nesse modo, as teclas viram mnemônicos, que são simbolos representando um comando.  
+Nesse modo as teclas representam mnemônicos, que são simbolos representando um comando.  
 Por exemplo:
 | Atalho | Mnemônico | Ação |
 | :---: | :---: | --- |
@@ -60,7 +60,7 @@ O modo de inserção é utilizado para a escrita em si. Existem diversas formas 
 |`i`| insert | Insere à esquerda do cursor |
 |`a`| append | Insere à direita do cursor |
 |`I`| Insert | Insere à esquerda da primeira palavra da linha |
-|`A`| Append | Insere à direita da última palavra do cursor |
+|`A`| Append | Insere à direita da última palavra da linha |
 |`c<motion>`| change | Deleta até `<motion>` caracteres e entra no modo de inserção |
 |`C`| Change | Deleta a partir do cursor até o final da linha e entra no modo de inserção |
 |`s`| substitute| Deleta a letra embaixo do cursor e entra no modo de inserção |
