@@ -1,5 +1,18 @@
 # Bem-VIMdo  
-Esse é um repositório para auxiliar no começo da sua jornada de aprendizado sobre o Vim.  
+### Esse é um repositório para auxiliar no começo da sua jornada de aprendizado sobre o Vim :D  
+## Material  
+Aqui existem arquivos de apoio que você pode usar para ir praticando:  
+ - O [rascunho](rascunho) é apenas rascunho mesmo, deve ser usado para testar as coisas.  
+ - Já o [navegando](navegando) tem textos com alguns erros aleatórios, a ideia é você chegar  
+ neles e corrigí-los da melhor maneira possível. Há também uma seção que pede o uso de alguns comandos específicos.   
+ - O [recupera.sh](recupera.sh) é um script para recuperar os outros dois arquivos caso algo irreversível aconteça, seu uso é:
+ ```bash
+ ./recupera.sh <arquivo>
+ ```
+ > \<arquivo\> = rascunho ou navegando  
+ 
+ Existe também os [slides]() que são uma versão mais aprofundada do conteúdo presente aqui no repositório.
+
 ## Sumário:
  - [Conhecendo o vim](#o-que-é-o-vim)
    - [Normal](#-normal)
