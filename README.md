@@ -30,7 +30,7 @@ O vim tem 3 modos principais:
 ## 🔵 Normal  
 O modo Normal é o modo principal do vim. É nele em que o editor se inicia e então, a partir dele, é possível ir para os outros 2 modos.  
 <img src="imagens_oficina/dois_modos_com_legenda.png" alt="relação entre os modos do vim" width="300">  
-Nesse modo cada tecla representa um comando. É possível associar um mnemônico para cada ação. 
+Nesse modo cada tecla representa um comando. É possível associar um mnemônico para cada ação.  
 Por exemplo:
 | Atalho | Mnemônico | Ação |
 | :---: | :---: | --- |
