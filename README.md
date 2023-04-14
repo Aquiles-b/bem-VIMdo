@@ -182,7 +182,7 @@ call plug#begin()
 
 call plug#end()
 ```
-3- Para adicionar plugins basta, colocá-los entre aspas simples da seguinte forma:
+3- Para adicionar plugins, basta colocá-los entre aspas simples da seguinte forma:
 
 ```vim
 call plug#begin()
