@@ -208,7 +208,7 @@ call plug#end()
    Plug 'https://github.com/morhetz/gruvbox'  
    Plug 'morhetz/gruvbox'
 ```
-4- Salve o arquivo `:w`, o recarregue `:so`, e então rode o comando `:PlugInstall`.  
+4- Salve o arquivo `:w`, o recarregue `:so %`, e então rode o comando `:PlugInstall`.  
 Pronto, os plugins estão instalados :)  
 
 [↑ Ir pro começo ↑](#bem-vimdo)   
