@@ -30,13 +30,23 @@ syntax on
 " Descomente a linha a seguir e selecione a variante se necessario.
 " set background=dark
 
-" Adiciona a coluna com a contagem de linhas na esquerda.
+" Adiciona uma coluna com a contagem de linhas na esquerda.
 set number
-" Adiciona a coluna com a contagem da distância relativa
+" Adiciona uma coluna com a contagem da distância relativa
 " ao cursor. Se usada em conjunto com a opção acima,
 " mostra o valor da linha atual do cursor, e o valor relativo
 " nas demais linhas. Ajuda na contagem para usar comandos. :)
 set relativenumber
+
+" Destaca a coluna 80.
+" (Boa prática de programação não passar de 80 caracteres numa linha)
+set colorcolumn=80
+
+" Destaca a linha atual do cursor
+" (Completamente horrível no tema padrão. Geralmente fica igual à cursorcolumn)
+set cursorline
+" Destaca a coluna atual do cursor
+set cursorcolumn
 
 " Utiliza espaços como TAB. É utilizada junto das outras duas opções a seguir
 " para controlar o tamanho do TAB.
