@@ -109,7 +109,7 @@ Lista de mnemônicos de cada letra no normal mode:
 
 # Configurações  
 
-Ao inicializar o programa, o vim busca suas configurações no arquivo .vimrc, localizado por padrão no diretório home. Essas configurações modificam a visualização, comportamento, e atalhos do programa, moldando o editor às suas preferências e necessidades.
+Ao inicializar o programa, o vim busca suas configurações no arquivo .vimrc localizado por padrão no diretório home. Essas configurações modificam a visualização, comportamento e atalhos do programa, moldando o editor às suas preferências e necessidades.
 
 ## Fazendo um .vimrc  
 O arquivo é escrito em vimscript. Há um exemplo de configuração inicial [aqui](.vimrc) no repositório.
@@ -219,7 +219,7 @@ Pronto, os plugins estão instalados :)
    - <a href="https://www.youtube.com/playlist?list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R" target="_blank">Playlist de vídeos do The Primeagen sobre Vim</a>
    - <a href="https://dev.to/prodopsio/vim-a-to-z-literally-1iah" target="_blank">dev.to/prodopsio/vim-a-to-z-literally-1iah</a>
 ### Temas de cores
-   - <a href="https://github.com/catppuccin/vim" target="_blank">Catpuccin</a>
+   - <a href="https://github.com/catppuccin/vim" target="_blank">Catppuccin</a>
    - <a href="https://github.com/sainnhe/everforest" target="_blank">Everforest</a>
    - <a href="https://github.com/morhetz/gruvbox" target="_blank">Gruvbox</a>
    - <a href="https://github.com/savq/melange-nvim" target="_blank">Melange (apenas Neovim)</a>
