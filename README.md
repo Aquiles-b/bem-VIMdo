@@ -120,7 +120,9 @@ set nu
 " Mesmo do set nu porém a contagem é relativa à posição do cursor 
 set rnu
 " Ativa o destaque da sintaxe do editor
-syntax on 
+syntax on
+" Define o tema padrão
+colorscheme <tema>
 " Tamanho do tab, nesse caso 4
 set tabstop=4
 " Tamanho da indentação usando << e >> (Bom deixar igual do tabstop)
